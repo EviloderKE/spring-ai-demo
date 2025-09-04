@@ -3,4 +3,8 @@ spring:
     name: spring-ai-demo
   ai:
     openai:
-      api-key:
+      api-key: 
+      base-url: https://dashscope.aliyuncs.com/compatible-mode/
+      chat:
+        options:
+          model: qwen-plus
